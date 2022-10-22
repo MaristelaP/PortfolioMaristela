@@ -3,10 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  /*  font-family: ;*/
+    font-family: 'Quicksand', sans-serif;
+  
 }
 .conteudoBackground {
-    background-image: url(img/background.png);
+    background-image: url(img/background.jpg);
+    opacity: 0.7;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -17,5 +19,62 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 45px;
+    padding: 55px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav h2 {
+    color: rgb(248, 235, 247);
+    font-size: 45px;
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+
+span {
+    color: rgb(91, 23, 155);
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: rgb(248, 235, 247);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: rgb(64, 250, 27);
+    transform: scale(1.8);
+}
+
+.minhaApresentacao {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50);
+}
+
+h4 {
+    color: rgb(248, 235, 247);
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+h1 {
+    color: rgb(248, 235, 247);
+    margin: 20px 0px 20px;
+    font-size: 45px;
+}
+
+h3 {
+    color: rgb(248, 235, 247);
+    font-size: 20px;
+    margin-bottom: 50px;
 }
