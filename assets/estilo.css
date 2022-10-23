@@ -8,7 +8,7 @@
 }
 .conteudoBackground {
     background-image: url(img/background.jpg);
-    opacity: 0.7;
+    
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -33,12 +33,14 @@ nav h2 {
 
 span {
     color: rgb(91, 23, 155);
+    font-weight: bold;
+    
 }
 
 nav ul li {
     display: inline-block;
     padding: 10px 25px;
-    font-size: 20px;
+    font-size: 15px;
     list-style-type: none;
 }
 
@@ -50,7 +52,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: rgb(64, 250, 27);
+    color: rgb(91, 23, 155);
     transform: scale(1.8);
 }
 
@@ -77,4 +79,52 @@ h3 {
     color: rgb(248, 235, 247);
     font-size: 20px;
     margin-bottom: 50px;
+}
+
+.backgroundColorSbre {
+    background-color: #191919;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.backgroundColorSbre img {
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 5px 10px 10px #000000;
+}
+
+.txtSobre {
+    width: 40%;
+}
+
+.txtSobre h2 {
+    color: rgb(248, 235, 247);
+    letter-spacing: 3px;
+    font-size: 45px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.txtSobre h5 {
+    color: rgb(91, 23, 155);
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+.txtSobre p {
+    color: rgb(248, 235, 247);
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-bottom: 45px;
+}
+
+.mainSobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1130px;
+    margin: 0 auto;
 }
