@@ -128,3 +128,45 @@ h3 {
     width: 1130px;
     margin: 0 auto;
 }
+
+.skills {
+    padding: 30px 30px;
+    text-align: center;
+    background-image: linear-gradient(to bottom left, rgb(36, 17, 239)0%, rgb(214, 35, 214)40%, rgb(119, 97, 119)60%, rgb(125, 17, 125)100%);
+    background-size: 200% 200%;
+    animation: gradientEffect 5s linear infinite alternate;
+    
+}
+
+@keyframes gradientEffect {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+} 
+
+.skills h2 {
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+.tecnologies ul {
+    list-style-type: none;
+}
+
+.tecnologies ul li {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.icons {
+    padding-top: 20px;
+
+}
+
+.icons i {
+    justify-content: space-around;
+    width: 50px;
+}
