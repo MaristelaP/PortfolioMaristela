@@ -1,2 +1,2 @@
 # PortfolioMaristela
-Meu portfólio criado no curso ONE-Alura
+Meu portfólio criado no curso ONE-Alura, ainda não finalizado.
